@@ -1,39 +1,28 @@
-📚 Gerenciamento de Biblioteca
-Projeto simples de gerenciamento de biblioteca utilizando Windows Forms com C#.
+# 📚 Gerenciamento de Biblioteca
 
-🔧 Tecnologias utilizadas
-C#
+Projeto em C# com Windows Forms para gerenciamento básico de uma biblioteca.
 
-Windows Forms (WinForms)
+## ✅ Funcionalidades
 
-.NET Framework
+- Cadastro de livros
+- Cadastro de usuários (alunos)
+- Empréstimo e devolução de livros
+- Listagem e consulta de registros
 
-Visual Studio 2022
+## 🛠 Tecnologias
 
-📝 Funcionalidades
-Cadastro de livros
+- C#
+- Windows Forms (.NET Framework)
+- Visual Studio 2022
 
-Cadastro de usuários (alunos)
+## 📁 Estrutura do projeto
 
-Empréstimo e devolução de livros
+- `Forms/` – Telas do sistema  
+- `Models/` – Classes de dados  
+- `Controllers/` – Regras de negócio  
+- `Program.cs` – Entrada principal do app
 
-Consulta de registros
+## ℹ️ Observações
 
-Interface gráfica simples e funcional
-
-📂 Estrutura do projeto
-Forms/ – Telas do sistema
-
-Models/ – Classes de dados
-
-Controllers/ – Lógica de manipulação
-
-Program.cs – Inicialização da aplicação
-
-📌 Observações
-Projeto desenvolvido para fins educacionais
-
-Não utiliza banco de dados, apenas estrutura local (pode ser expandido)
-
-👨‍💻 Autor
-Desenvolvido por Gianluca – Estudante de Análise e Desenvolvimento de Sistemas
+- Projeto com fins educacionais
+- Lógica implementada sem uso de banco de dados externo
